@@ -1,0 +1,253 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Brenda Medeiros</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing-1.3.pack.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider.js"></script> 
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="js/bootstrap-scrollspy.js"></script>
+
+
+<!-- Styles -->
+<link href="css/bootstrap.css" rel="stylesheet">    
+<link href="css/exo-font.css" rel="stylesheet">
+<link href="css/journal-font.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<link href="css/flexslider.css" rel="stylesheet">	
+<link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet">	
+<link href="css/responsive.css" rel="stylesheet">
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Script files -->
+
+<script>
+$(document).ready(function(){
+  $('.navbar .nav li a[href^="#"]').bind('click.smoothscroll', function(e) {
+        e.preventDefault();
+        var target = this.hash;
+        $('html, body').stop().animate({
+          'scrollTop' : $(target).offset().top
+        }, 900, 'swing', function() {
+            window.location.hash = target;
+        });
+    });
+});
+</script>
+
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" >
+
+  <!-- NAVBAR ############################################### -->
+  <div class="navbar navbar-fixed-top" id="navbar">
+    <div class="navbar-inner">
+      <div class="container">
+
+      <a href="#home" class="brand hidden-phone" id="brand" ><img src="img/logo.png" alt=""></a>
+
+
+      <ul class="nav">
+
+      <li><a href="#about">Sobre Mim</a></li>
+      <li><a href="#work1">Portfólio</a></li>
+      <li><a href="#contact">Contato</a></li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+  <!-- /NAVBAR ############################################### -->
+
+  <!-- ABOUT ############################################### --> 
+  <div id="about">
+    <div class="container">
+      <div class="row head1">
+        <div class="span12" >
+        <h2>Sobre Mim</h2>
+        </div>
+      </div> 
+      <div>
+        <blockquote>
+          <p class="about">
+              Sou programadora Front-End e Back-End com mais de 5 anos de experiência em projetos utilizando PHP, HTML5, CSS3, Javascript, jQuery, SASS, Bootstrap e WordPress.
+          </p>
+        </blockquote>
+      </div>
+
+    </div> <!-- /container -->
+  </div> <!-- /about -->   
+
+  <!-- /ABOUT ############################################### -->      
+
+  <!-- WORK 01 ############################################### -->
+
+  <div id="work1">
+
+    <div class="container">
+      <div class="row head1">
+        <div class="span12">
+          <h2>Portfólio</h2>
+        </div>
+      </div> 
+
+      <div id="banner">
+        <div class="bx-works">
+          <img src="macbook/acesc.png"   /><br/><h2>ACESC</h2><br/>
+          <div style=" float:left">
+            <p>Site feito em WordPress com banner responsivo e touch screen, contendo áreas de press kit, ranking de clubes e um fórum de discussão por departamentos, onde cada usuário poderá ver somente o tópico que condiz com seu departamento correspondente.</p>
+          </div>
+        </div>
+
+        <div class="bx-works">
+          <img src="macbook/cvs.png"  />
+          <h2>CVS+</h2><br/>
+          <div style=" float:left">
+            <p>Website desenvolvido em WordPress. Totalmente responsivo, HTML5 com integração às redes sociais da agência.</p>
+            </div>
+        </div>
+
+        <div class="bx-works">
+          <img src="macbook/tottori.png"    />
+          <h2>Tottori</h2><br/>
+          <div style=" float:left">
+            <p>Para o restaurante especializado em comida japonesa, o site foi feito em WordPress.</p>
+          </div>
+        </div>
+
+
+        <div class="bx-works">
+          <img src="macbook/trattori.png"    />
+          <h2>Trattoria Vitória Régia</h2><br/>
+          <div style=" float:left">
+            <p>Site feito em WordPress com área de destaque, últimos eventos, cardápio divido por categoria, localização com mapa do Centro Comercial em jQuery e formulários de Reserva, Contato e Fale Conosco.</p>
+          </div>
+        </div>
+
+        <div class="bx-works">
+          <img src="macbook/fogodechao.png" style="margin-left:70px;"   />
+          <h2>Fogo de Chão</h2><br/>
+          <div style=" float:left">
+            <p>Depois de pronto, os últimos ajustes. O website foi ajustado para tablets e sistema mobile para uma melhor visualização dos usuários.</p>
+          </div>
+        </div>
+
+        <div class="bx-works">
+          <img src="macbook/solucoes-c.png"    />
+          <h2>Soluções Consultoria</h2><br/>
+          <div style=" float:left">
+            <p>Alterações no estilo do layout (css) e diposição dos elementos.</p>
+          </div>
+        </div>
+
+        <div class="bx-works">
+          <img src="macbook/solucoes-f.png"    />
+          <h2>Soluções Formação Profissional</h2><br/>
+          <div style=" float:left">
+            <p>Adaptações no estilo do layout.</p>
+          </div>
+        </div>
+
+        <div class="bx-works">
+          <img src="macbook/vero.png"   />
+          <h2>Revista Vero Alphaville</h2><br/>
+          <div style=" float:left">
+            <p>Para uma das maiores revistas de Alphaville, foram desenvolvidos seis aplicativos para a Fan Page no Facebook: </p>
+            <ul>
+              <li>Vero Online, com as três últimas edições da revista em javascript e com a opção de download;</li>
+              <li>Mídia Kit e Vero Café, seguindo o mesmo padrão do app Vero Online;</li>
+              <li>Equipe Vero, com fotos e links para o perfil no Facebook de cada funcionário;</li>
+              <li>TVero com 4 vídeos em destaque, integrando o canal do YouTube da revista;</li>
+              <li>Trabalhe na Vero com formulário e campo para anexo de currículum;</li>
+              <li>Welcome com banner em jQuery, contendo destaque da edição atual e um pouco do perfil e público da revista.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bx-works">
+          <img src="macbook/cvs-app.png"   />
+          <h2>CVS+ App</h2><br/>
+          <div style=" float:left">
+            <p>Aplicativo para Facebook de contato utlizando php e css.</p>
+          </div>
+        </div>
+
+        <div class="bx-works">
+          <img src="img/revista.jpg"  />
+          <h2>Revista ADVFN</h2><br/><br/>
+          <div style=" float:left">
+            <p>Hotsite desenvolvido para a Revista ADVFN com área para assinantes.</p>
+          </div>
+        </div>
+
+        <div class="bx-works">
+          <img src="img/revista.jpg"  />
+          <h2>Revista ADVFN</h2><br/><br/>
+          <div style=" float:left">
+            <p>Hotsite desenvolvido para a Revista ADVFN com área para assinantes.</p>
+          </div>
+        </div>
+
+      </div>
+    </div> <!-- /container -->
+  </div> <!-- /work1 -->  
+
+  <!-- /WORK 01 ############################################### -->
+
+  <div id="contact">
+
+  <div class="container">
+  <div class="row head1">
+  <div class="span12" >
+  <h2>Contato</h2>
+  </div> <!-- /container -->
+
+  </div> <!-- /contact -->  
+
+  <!-- /MAP ############################################### -->
+
+
+
+
+  <!-- CONTACT FORM ############################################### -->
+
+  <div id="form">
+    <div class="container">
+      <div class="row">				 
+        <div class="span8" >
+              Entre em contato comigo:
+              <div>
+                Celular: 55 11 96218-1890<br>
+                Email: <a href="mailto:brenda.medeiros@outlook.com">brenda.medeiros@outlook.com</a><br>
+                LinkedIn: <a href="https://www.linkedin.com/in/brendamedeiros">brendamedeiros</a>
+                <br/>
+                CV: <a href="cv-portuguese.pdf">PT</a> | <a href="cv-english">EN</a> (.pdf)
+              <br/><br/>
+          </div>
+        </div>
+    </div> <!-- /container -->
+  </div> <!-- /form  -->  
+
+  <!-- /CONTACT FORM  ############################################### -->
+
+
+  <!-- FOOTER ############################################### -->
+
+  
+  <!-- /Footer ############################################### -->
+
+
+</body>
+</html>
