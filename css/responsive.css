@@ -352,7 +352,7 @@
   .head1, .head2, .head3 {margin-left:0px;}
   .head1 h2, .head2 h2, .head3 h2 {font-size: 50px;}
   #map {margin:0; padding:0; height:200px; margin-bottom:50px;}
-  .navbar .nav {float:none; text-align:center; }
+  .navbar .nav {text-align:center; }
   .navbar-fixed-top{position:static}
   body {overflow-x:hidden;}
 
