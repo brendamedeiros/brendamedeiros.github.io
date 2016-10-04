@@ -532,6 +532,7 @@ banner ul, li {
   color: #FFF;
   margin-left: 5px;
   line-height: 25px;
+  text-align: left;
 }
 
 #banner p { 
