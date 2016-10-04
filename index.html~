@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -232,9 +231,11 @@ $(document).ready(function(){
                 Celular: 55 11 96218-1890<br>
                 Email: <a href="mailto:brenda.medeiros@outlook.com">brenda.medeiros@outlook.com</a><br>
                 LinkedIn: <a href="https://www.linkedin.com/in/brendamedeiros">brendamedeiros</a>
+		GitHub: <a href="https://github.com/brendamedeiros/">http://github.com/brendamedeiros</a>
                 <br/>
                 CV: <a href="cv-portuguese.pdf">PT</a> | <a href="cv-english">EN</a> (.pdf)
-              <br/><br/>
+              	<br/><br/>
+		<p align="center">Este site foi hospedado no GitHub. Visite o repositório <a href="https://github.com/brendamedeiros/brendamedeiros.github.io">aqui</a>.</p>
           </div>
         </div>
     </div> <!-- /container -->
